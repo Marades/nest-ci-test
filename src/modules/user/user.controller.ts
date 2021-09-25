@@ -7,6 +7,7 @@ export class UserController {
 
   @Get('/')
   Hello() {
+    const a = 2;
     return 'hello';
   }
 }
